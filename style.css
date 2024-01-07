@@ -8,6 +8,10 @@ body {
     font-family: 'Work Sans', sans-serif;
 }
 
+.full-main{
+    width:1600px;
+    margin:0 230px 0 230px;
+}
 /* header related styles */
 .intro>ul li {
     display: block;
@@ -94,11 +98,11 @@ body {
 
 .ffsec {
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
 }
 
 .failure {
-    margin: 370px 134px 0 105px;
+    margin: 370px 430px 0 105px;
 }
 
 .failure-img {
@@ -109,7 +113,7 @@ body {
 .plans-div1 {
     display: flex;
     text-align: center;
-    gap: 160px;
+    gap: 100px;
     margin-top: 50px;
 }
 
@@ -133,9 +137,8 @@ body {
 
 .planss {
     display: block;
-    width: 1450px;
     height: 299.958px;
-    margin: 10px 0px 0 10px;
+
 }
 
 .plans-heading {
@@ -143,14 +146,16 @@ body {
     font-size: 40px;
     font-weight: 700;
     text-align: center;
+    padding-right: 400px;
 }
 
 /* contact division styles */
 
 .contact {
     background-image: url('/images/watch.png'), url('/images/gradient2.png');
-    width: 1140px;
+    background-repeat: no-repeat;
     height: 300px;
+    margin-top: 130px;
 }
 
 .contact-h {
@@ -170,6 +175,7 @@ body {
     font-weight: 600;
     border-radius: 6px;
     border: 0px;
+    margin-top: 30px;
 
 }
 
@@ -193,38 +199,57 @@ footer {
     height: 577px;
     display: flex;
     justify-content: space-between;
+    margin-top: 130px;
 }
 
 
 
-.footer-h1{
+.footer-h1 {
     color: #F8F8F8;
     font-size: 45px;
     font-weight: 700;
 }
-.footer-p{
-color: #FFF;
-font-size: 16px;
-font-weight: 400;
-margin-top:50px;
+
+.footer-p {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 50px;
 }
-#p{
-    height:26px;
+
+#p {
+    height: 26px;
     width: 485px;
 }
 
-.social-links{
-    gap:60px;
-    margin-top:32px;
-    width:180px;
+.social-links {
+    gap: 60px;
+    margin-top: 32px;
+    width: 180px;
     height: 20px;
 }
 
-.foot-div2{
-display: block;
-width:350px;
-height:500px;
+.foot-div1{
+    margin-top:130px;
 }
-.fdiv2i{
-    margin-top: 50px;
+.foot-div2 {
+    display: block;
+}
+
+
+input[type="text"] {
+    width: 325px;
+    height: 64px;
+    margin-bottom: 16px;
+    border: 1px solid #fff;
+    border-radius: 8px;
+}
+#btn-d{
+    margin-top: 0px;;
+}
+#fh3{
+    color: #FFF;
+font-size: 25px;
+font-weight: 600;
+margin-bottom: 31px;
 }
