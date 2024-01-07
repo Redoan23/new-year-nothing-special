@@ -152,10 +152,11 @@ body {
 /* contact division styles */
 
 .contact {
-    background-image: url('/images/watch.png'), url('/images/gradient2.png');
+    background-image: url('/images/gradient2.png'), url('/images/watch.pnggit');
     background-repeat: no-repeat;
-    height: 300px;
-    margin-top: 130px;
+    background-position: left, left;
+    height:300px;
+    margin-top:130px;
 }
 
 .contact-h {
